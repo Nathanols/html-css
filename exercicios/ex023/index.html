@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabelas</title>
+</head>
+
+<style>
+    table{
+        width:300px; 
+        height: 300px;
+        border-collapse: collapse;
+    }
+
+    tr.linha{
+        background-color: pink;
+    }
+
+    td.dado{
+        background-color: violet;
+    }
+
+    td{
+        border: 1px solid black;
+        vertical-align: bottom;
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr class="linha"><!--primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>  <!--segunda linha-->
+            <td>A2</td>
+            <td class="dado">B2</td>
+            <td>C2</td>
+        </tr>
+        <tr class="linha"><!--terceire linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+    </table>
+</body>
+</html>
